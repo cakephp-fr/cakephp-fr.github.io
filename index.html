@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <p>
+    Bienvenue sur le site de la communauté francophone de CakePHP. <strong>Vous trouverez ici toutes les informations nécessaires
+    pour échanger avec d'autres professionnels et partager votre expérience.</strong>
+  </p>
+  <p>
+    CakePHP-fr.org est un complément aux ressources officielles disponibles sur <a href="http://www.cakephp.org">CakePHP.org</a> (Documentation, API, tickets ...). Si vous souhaitez apprendre le framework ou contribuer au code, rendez-vous sur le site officiel.
+  </p>
+
+  <h2 class="page-heading">Notre mission</h2>
+  <p>
+    Nous souhaitons aider l'adoption de CakePHP en France, en aidant les professionnels à se rencontrer et diffuser leur expérience.
+  </p>
+
+  <h2 class="page-heading">Nos outils</h2>
+  <p>
+
+  </p>
+  <p>Envie d'aider ou de proposer des améliorations ? <a href="/contribuer">C'est possible !</a></p>
+
+  <h2 class="page-heading">Actualités</h2>
+  <a href="/contribuer">Proposer une actualité</a>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">s'abonner <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
