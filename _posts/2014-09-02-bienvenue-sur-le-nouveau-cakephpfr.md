@@ -22,5 +22,3 @@ En espérant que ce nouveau site vous plaise et qu'il vous accompagne dans la
 création de vos projets ! (avec CakePHP 3 qui sort d'un moment à un autre)
 
 Pour faire une modification du site, vous pouvez aller sur [github](https://github.com/cakephp-fr/siteweb)
-
-TODO A corriger et modifier si besoin ! :) :)

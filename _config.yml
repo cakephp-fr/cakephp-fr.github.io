@@ -7,6 +7,11 @@ description: >
   Les informations officielles sont disponibles sur http://www.cakephp.org.
   Notre but est de faciliter l'adoption de CakePHP dans les pays francophones,
   en proposant des ressources et en facilitant les échanges entre utilisateurs du framework.
+description_welcome: >
+  Ce site est le site de la communauté francophone de CakePHP.
+  Les informations officielles sont disponibles sur <a href="http://www.cakephp.org">le site officiel</a>.
+  Notre but est de faciliter l'adoption de CakePHP dans les pays francophones,
+  en proposant des ressources et en facilitant les échanges entre utilisateurs du framework.
 baseurl: ""
 url: "http://www.cakephp-fr.org"
 twitter_username: cakephpfr
