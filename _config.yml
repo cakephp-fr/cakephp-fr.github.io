@@ -19,3 +19,6 @@ github_username:  cakephp-fr
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
