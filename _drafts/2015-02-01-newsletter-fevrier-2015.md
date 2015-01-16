@@ -10,9 +10,13 @@ Voici la newsletter de Février 2015.
 Le site et le forum ont été remodelés dans le but d'être simplifié. Si vous
 avez des remarques ou des propositions d'amélioration, nous sommes tout ouïe ! :)
 
-Un petit récap de l'activité du forum du mois de janvier:
+Si des meetups sont organisés, les mettre ici...
+
+
+Un petit récap de l'activité du site pour le mois de janvier:
 
 - Nombre d'inscriptions sur le site :
+  Bienvenue à xxx, xxx, xxx
 - Nombre de pages vues :
 - Nombre de visiteurs uniques :
 - Nombre de messages sur le forum :
@@ -21,12 +25,21 @@ Un petit récap de l'activité du forum du mois de janvier:
 
 Répartition géographique des visites sur le site:
 
--
--
+- France
+- Maroc
+- Tunisie
+- Belgique
+- Russie
+- Cote d'ivoire
+- Canada
+- Algérie
+- Suisse
+- Sénégal
+
 
 Les versions suivantes ont été mises à jour :
-- CakePHP 2.x
-- CakePHP 3.x
+- CakePHP 2.x avec lien vers site de CakePHP officiel
+- CakePHP 3.x avec lien vers site de CakePHP officiel
 
 
 Merci à tous pour l'aide que vous avez pu apporter !
