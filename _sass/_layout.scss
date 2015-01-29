@@ -4,10 +4,11 @@
  */
 .site-header {
     height: auto;
-    border-top: 5px solid $green-color-dark;
+    border-top: 1px solid $green-color-dark;
     border-bottom: 1px solid $green-color-light;
     background-color: $green-color;
     min-height: 56px;
+    padding-top: 5px;
 }
 
 .site-title {
