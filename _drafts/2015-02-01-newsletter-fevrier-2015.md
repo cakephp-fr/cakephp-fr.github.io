@@ -10,8 +10,13 @@ Voici la newsletter de Février 2015.
 Le site et le forum ont été remodelés dans le but d'être simplifié. Si vous
 avez des remarques ou des propositions d'amélioration, nous sommes tout ouïe ! :)
 
+Meetups prévues
+===============
+
 Si des meetups sont organisés, les mettre ici...
 
+Statistiques du site
+====================
 
 Un petit récap de l'activité du site pour le mois de janvier:
 
@@ -37,9 +42,19 @@ Répartition géographique des visites sur le site:
 - Sénégal
 
 
-Les versions suivantes ont été mises à jour :
-- CakePHP 2.x avec lien vers site de CakePHP officiel
-- CakePHP 3.x avec lien vers site de CakePHP officiel
+Dernières versions de CakePHP
+=============================
+
+Au 1er février 2015:
+- [CakePHP 2.x](http://bakery.cakephp.org/articles/markstory/2015/01/16/cakephp_2_6_1_released)
+- [CakePHP 3.x](http://bakery.cakephp.org/articles/lorenzo/2015/01/02/cakephp_3_0_0-rc1_released)
+
+
+Ressources, Plugins & Contributions
+===================================
+
+- [Une liste de ressources, plugins & librairies pour CakePHP 3](https://github.com/FriendsOfCake/awesome-cakephp/tree/cake3)
+- Ajouter ici les articles, plugins qui pourraient intéresser la communauté.
 
 
 Merci à tous pour l'aide que vous avez pu apporter !
