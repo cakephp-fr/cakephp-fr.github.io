@@ -35,6 +35,7 @@ Dernières versions de CakePHP
 -----------------------------
 
 Au 1er février 2015:
+
 - [CakePHP 2.x](http://bakery.cakephp.org/articles/markstory/2015/01/16/cakephp_2_6_1_released)
 - [CakePHP 3.x](http://bakery.cakephp.org/articles/lorenzo/2015/01/02/cakephp_3_0_0-rc1_released)
 
