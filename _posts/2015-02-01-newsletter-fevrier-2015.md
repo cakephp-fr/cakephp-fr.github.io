@@ -36,15 +36,15 @@ Dernières versions de CakePHP
 
 Au 1er février 2015:
 
-- [CakePHP 2.x](http://bakery.cakephp.org/articles/markstory/2015/01/16/cakephp_2_6_1_released)
-- [CakePHP 3.x](http://bakery.cakephp.org/articles/lorenzo/2015/01/02/cakephp_3_0_0-rc1_released)
+- [CakePHP 2.6.1](http://bakery.cakephp.org/articles/markstory/2015/01/16/cakephp_2_6_1_released)
+- [CakePHP 3.0.0-RC1](http://bakery.cakephp.org/articles/lorenzo/2015/01/02/cakephp_3_0_0-rc1_released)
 
 
 Ressources, Plugins & Contributions
 -----------------------------------
 
 - Liste de ressources, plugins & librairies pour CakePHP 3 par [FriendsOfCake](https://github.com/FriendsOfCake/awesome-cakephp/tree/cake3)
-- Pour la prochaine newsletter de Mars, vous pouvez faire une pull request sur [ce dépôt](https://github.com/cakephp-fr/cakephp-fr.github.io/_drafts/2015-03-01-newsletter-mars-2015.md) pour ajouter les articles, plugins qui pourraient intéresser la communauté.
+- Pour la prochaine newsletter de Mars, vous pouvez faire une pull request sur [ce dépôt](https://github.com/cakephp-fr/cakephp-fr.github.io/blob/master/_drafts/2015-03-01-newsletter-mars-2015.md) pour ajouter les articles, plugins qui pourraient intéresser la communauté.
 
 
 Merci à tous pour l'aide que vous avez pu apporter !
