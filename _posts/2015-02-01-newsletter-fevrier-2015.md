@@ -29,7 +29,7 @@ Petit Rappel : Quand votre sujet est résolu, pensez à ajouter [RESOLU] dans le
 
 Pdf de statistiques de Google Analytics:
 
-![Analytics de Janvier 2015](../img/img/analytics-www.cakephp-fr.org-Statistiques Mensuelles-20150101-20150131.png)
+![Analytics de Janvier 2015](../img/analytics-www.cakephp-fr.org-Statistiques Mensuelles-20150101-20150131.png)
 
 Dernières versions de CakePHP
 -----------------------------
