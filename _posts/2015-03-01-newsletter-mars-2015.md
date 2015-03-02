@@ -8,7 +8,7 @@ categories: actualites
 Meetups prévues
 ---------------
 
-Si vous souhaitez organiser un meetup dans votre ville, vous pouvez demander à real34 qui a un [compte sur meetup](http://www.meetup.com/CakePHP-Toulouse). Vous pouvez faire la demande sur le [forum](forum.cakephp-fr.org/viewtopic.php?id=7291)
+Si vous souhaitez organiser un meetup dans votre ville, vous pouvez demander à real34 qui a un [compte sur meetup](http://www.meetup.com/CakePHP-Toulouse). Vous pouvez faire la demande sur le [forum](http://forum.cakephp-fr.org/viewtopic.php?id=7291)
 
 Une meetup va sans doute avoir lieu la première semaine d'avril à Amiens. Affaire à suivre ! :-)
 
@@ -25,12 +25,13 @@ Un petit récap de l'activité du site pour le mois de février:
 
 Pdf de statistiques de Google Analytics:
 
-![Analytics de Mars 2015](../img/analytics-www.cakephp-fr.org-statistiques-mensuelles-20150201-20150228.png)
+![Analytics de Février 2015]({{ site.url }}/img/analytics-www.cakephp-fr.org-statistiques-mensuelles-20150201-20150228.png)
 
 Dernières versions de CakePHP
 -----------------------------
 
 Au 1er mars 2015:
+
 - [CakePHP 2.6.2](https://github.com/cakephp/cakephp/releases/tag/2.6.2)
 - [CakePHP 3.0.0-RC2](https://github.com/cakephp/cakephp/releases/tag/3.0.0-RC2)
 

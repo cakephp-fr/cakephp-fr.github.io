@@ -25,12 +25,13 @@ Un petit récap de l'activité du site pour le mois de mars:
 
 Pdf de statistiques de Google Analytics:
 
-![Analytics de Avril 2015](../img/analytics-www.cakephp-fr.org-statistiques-mensuelles-20150401-20150431.png)
+![Analytics de Mars 2015]({{ site.url }}/img/analytics-www.cakephp-fr.org-statistiques-mensuelles-20150301-20150331.png)
 
 Dernières versions de CakePHP
 -----------------------------
 
 Au 1er avril 2015:
+
 - [CakePHP 2x](https://github.com/cakephp/cakephp/releases/tag/2.x)
 - [CakePHP 3.x](https://github.com/cakephp/cakephp/releases/tag/3.x)
 
