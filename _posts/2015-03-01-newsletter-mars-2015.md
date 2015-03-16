@@ -39,12 +39,12 @@ Ressources, Plugins & Contributions
 -----------------------------------
 
 - [Podcasts](http://podcast.cakephp.org) en anglais sur le site officiel de CakePHP ou via Itunes.
-- [Chaîne Youtube] en anglais.
+- [Chaîne Youtube](https://www.youtube.com/user/CakePHP) en anglais.
 - La prochaine CakeFest 2015 aura lieu du 28 au 31 mai 2015 à New York.
   A noter que ce rendez-vous annuel marque les 10 ans du framework.
   Tout le monde peut s'inscrire moyennant un ticket compris entre 200$
-  et 500$. Des conférences et des workshop animés par les développeurs de
-  CakePHP sont prévues. Plus d'infos [ici](http://cakefest.org).
+  et 500$. Des conférences et des workshops animés par les développeurs de
+  CakePHP sont prévus. Plus d'infos [ici](http://cakefest.org).
 
 - Vous pouvez faire une pull request sur [ce dépôt](https://github.com/cakephp-fr/cakephp-fr.github.io/blob/master/_drafts/2015-04-01-newsletter-avril-2015.md) pour ajouter les articles, plugins qui pourraient intéresser la communauté.
 
