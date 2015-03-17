@@ -10,6 +10,14 @@ Que vous soyez utilisateur de CakePHP ou curieux souhaitant découvrir le framew
 
 En tant que participant, soyez accueillant et ouvert en respectant les autres participants ... gardons la convivialité de notre communauté !
 
+##Amiens
+
+[http://www.meetup.com/CakePHP-Toulouse/](http://www.meetup.com/CakePHP-Toulouse/)
+
+A venir :
+
+* le 25 Mars 2015 : [En route pour CakePHP 3 ! Découverte du framework.](http://forum.cakephp-fr.org/viewtopic.php?id=7315)
+
 ##Toulouse
 
 [http://www.meetup.com/CakePHP-Toulouse/](http://www.meetup.com/CakePHP-Toulouse/)
