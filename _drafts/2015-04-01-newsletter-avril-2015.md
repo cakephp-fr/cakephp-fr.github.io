@@ -5,6 +5,12 @@ date:   2015-04-01 10:50:47
 categories: actualites
 ---
 
+Le 22 mars ! C'est finalement à cette date que la tant attendue version 3 de CakePHP a été lancée. Après plus de 2 ans et demi de travail, vous pouvez enfin construire vos applications en production.
+
+A noter aussi une refonte en cours du site officiel qui se fera progressivement au cours de l'année. Pour rappel, vous pouvez encore vous inscrire à la [CakeFest](http://cakefest.org), rendez-vous annuel des amateurs du framework qui se déroule du 28 au 31 mars 2015 à New York...
+
+A la fin de ce post, vous trouverez des retours d'expérience de cette nouvelle version. N'hésitez pas à rajouter vos propres liens vers vos blogs.
+
 Meetups prévues
 ---------------
 
@@ -35,11 +41,12 @@ Dernières versions de CakePHP
 Au 1er avril 2015:
 
 - [CakePHP 2.6.3](https://github.com/cakephp/cakephp/releases/tag/2.6.3)
-- [CakePHP 3.x](https://github.com/cakephp/cakephp/releases/tag/3.x)
+- [CakePHP 3.0.0](https://github.com/cakephp/cakephp/releases/tag/3.0.0)
 
 Ressources, Plugins & Contributions
 -----------------------------------
 
+- Article montrant un exemple concret de création d'un [site dans le genre de Twitter avec CakePHP3] (http://www.aubm.net/blog/mes-premiers-pas-avec-cakephp-3)
 - Vous pouvez faire une pull request sur [ce dépôt](https://github.com/cakephp-fr/cakephp-fr.github.io/blob/master/_drafts/2015-05-01-newsletter-mai-2015.md) pour ajouter les articles, plugins qui pourraient intéresser la communauté
 pour le mois prochain.
 
