@@ -14,10 +14,11 @@ Pour être tenus informé des nouveaux évènements en france, rejoignez le [Gro
 
 ##Amiens
 
-A venir :
+Passés :
 
-* le 25 Mars 2015 : [En route pour CakePHP 3 ! Découverte du framework.](http://forum.cakephp-fr.org/viewtopic.php?id=7315)
-  * <a href="http://www.meetup.com/CakePHP-France/events/221318398/" data-event="221318398" class="mu-rsvp-btn">RSVP</a>
+* le 25 Mars 2015 : [En route pour CakePHP 3 ! Découverte du framework.](http://www.meetup.com/CakePHP-France/events/221318398/)
+  * [les slides](http://fr.slideshare.net/BenjaminLamprier/meetup-cakephp-amiens-25-mars-2015)
+  * [le projet démo : Migrations + Bake](https://github.com/BenjaminLamperier/Meetup-CakePHP-Amiens-B2B)
 
 
 ##Toulouse
