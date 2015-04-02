@@ -45,13 +45,13 @@ Statistiques du site
 
 ### Un petit récap de l'activité du site pour le mois de mars:
 
-|---------------------------------|--------|---------|----------|
+
 |                                 |Janvier | Février |   Mars   |
 |---------------------------------|--------|---------|----------|
 |Nb d'inscriptions sur le forum   |   11   |   10    |  **20**  |
 |Nb de sujets Entraide            |   37   |   31    |  **38**  |
 |Nb de messages sans réponse      |   0    |   2     |  **1**   |
-|---------------------------------|--------|---------|----------|
+
 
   Bienvenue à mahi, jellybrain, ma2_izmailov, kebe, Alborosie, Cainzer, viace33,
   BlackAlpha, Salaktarus, alain22, foudali, GuillaumeL, zeubi666, PhpMod, Stoow,
