@@ -53,9 +53,9 @@ Statistiques du site
 |Nb de messages sans réponse      |   0    |   2     |  **1**   |
 
 
-  Bienvenue à mahi, jellybrain, ma2_izmailov, kebe, Alborosie, Cainzer, viace33,
-  BlackAlpha, Salaktarus, alain22, foudali, GuillaumeL, zeubi666, PhpMod, Stoow,
-  WilbertDre, Yves, mansaychai, Omicrone et elnk.
+Bienvenue à mahi, jellybrain, ma2_izmailov, kebe, Alborosie, Cainzer, viace33,
+BlackAlpha, Salaktarus, alain22, foudali, GuillaumeL, zeubi666, PhpMod, Stoow,
+WilbertDre, Yves, mansaychai, Omicrone et elnk.
 
 
 ### Pdf de statistiques de Google Analytics:
