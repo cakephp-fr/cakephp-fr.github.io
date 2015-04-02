@@ -4,15 +4,20 @@ title: Meetups CakePHP en France
 permalink: /meetups/
 ---
 
-Cette page recense toutes les rencontres entre développeurs CakePHP en France  (ordre alphabétique).
+Cette page recense toutes les rencontres entre développeurs CakePHP en France
+(ordre alphabétique).
 
-Que vous soyez utilisateur de CakePHP ou curieux souhaitant découvrir le framework, **participez à un évènement près de chez vous pour progresser, partager vos connaissances et découvrir de nouvelles choses.**
+Que vous soyez utilisateur de CakePHP ou curieux souhaitant découvrir le
+framework, **participez à un évènement près de chez vous pour progresser,
+partager vos connaissances et découvrir de nouvelles choses.**
 
-En tant que participant, soyez accueillant et ouvert en respectant les autres participants ... gardons la convivialité de notre communauté !
+En tant que participant, soyez accueillant et ouvert en respectant les autres
+participants ... gardons la convivialité de notre communauté !
 
-Pour être tenus informé des nouveaux évènements en france, rejoignez le [Groupe CakePHP France sur Meetup](http://www.meetup.com/CakePHP-France/)
+Pour être tenus informé des nouveaux évènements en france, rejoignez le
+[Groupe CakePHP France sur Meetup](http://www.meetup.com/CakePHP-France).
 
-##Amiens
+## Amiens
 
 Passés :
 
@@ -20,19 +25,22 @@ Passés :
   * [les slides](http://fr.slideshare.net/BenjaminLamprier/meetup-cakephp-amiens-25-mars-2015)
   * [le projet démo : Migrations + Bake](https://github.com/BenjaminLamperier/Meetup-CakePHP-Amiens-B2B)
 
-
-##Toulouse
+## Toulouse
 
 Passés :
 
 * le 25 Septembre 2014 : [Découvrons CakePHP 3 et sa communauté locale !](http://www.meetup.com/CakePHP-Toulouse/events/204531632/)
 
-##Près de chez vous ?
+## Près de chez vous ?
 
-Vous souhaitez rencontrer d'autres développeurs près de chez vous ? **Proposez le sur [Meetup](http://www.meetup.com/CakePHP-France/)**
+Vous souhaitez rencontrer d'autres développeurs près de chez vous ? **Proposez
+le sur [Meetup](http://www.meetup.com/CakePHP-France/)**
 
-Le service meetup.com vous fera gagner un temps monstre. Autrement, vous pouvez mettre en place une mailing list ou tout autre système pour fédérer les utilisateurs locaux et vous rassembler régulièrement.
+Le service meetup.com vous fera gagner un temps monstre. Autrement, vous pouvez
+mettre en place une mailing list ou tout autre système pour fédérer les
+utilisateurs locaux et vous rassembler régulièrement.
 
-Dans tous les cas, si vous avez besoin d'aide [Contactez-nous !](mailto:contact@cakephp-fr.org)
+Dans tous les cas, si vous avez besoin d'aide
+[Contactez-nous !](mailto:contact@cakephp-fr.org)
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://a248.e.akamai.net/secure.meetupstatic.com/s/script/781615113490305/api/mu.btns.js?id=7nen373d2fa7oilhnsh2sic1t7";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");</script>

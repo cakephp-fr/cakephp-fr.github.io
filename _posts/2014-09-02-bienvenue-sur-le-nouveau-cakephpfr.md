@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Bienvenue sur le nouveau CakePHP-fr"
-date:   2014-09-02 00:16:47
 categories: actualites
 ---
-
 
 Après 6 années de bons et loyaux services de cakephp-fr.org (1er message le
 1er juillet 2008), nous avons décidé de transformer de fond en comble le site.

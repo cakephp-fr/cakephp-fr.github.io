@@ -6,7 +6,8 @@ permalink: /contribuer/
 
 Ce site est entièrement géré par des bénévoles.
 
-Les sources sont disponibles sur [Github](http://github.com/cakephp-fr) et toute contribution est la bienvenue.
+Les sources sont disponibles sur [Github](http://github.com/cakephp-fr) et
+toute contribution est la bienvenue.
 
 Vous pouvez contribuer de différentes manières :
 

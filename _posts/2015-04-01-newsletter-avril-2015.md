@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Newsletter d'Avril"
+title:  "Newsletter d'avril"
 date:   2015-04-01 10:50:47
 categories: actualites
 ---
 
 Le 22 mars ! C'est finalement à cette date que la tant attendue version 3 de
 CakePHP a été lancée. Après plus de 2 ans et demi de travail, vous pouvez enfin
-construire vos applications en production. Un grand merci à l'[équipe de CakePHP]
-(https://github.com/orgs/cakephp/people) et à toute la communauté
+construire vos applications en production. Un grand merci à l'
+[équipe de CakePHP](https://github.com/orgs/cakephp/people) et à toute la communauté
 qui ont fait un boulot incroyable pour nous livrer une version véritablement
 stable, complète et toujours aussi facile à utiliser.
 
@@ -32,7 +32,7 @@ Meetups prévues
 Si vous souhaitez organiser un meetup dans votre ville, vous pouvez en créer un
 sur [meetup](http://www.meetup.com). Vous pouvez nous demander
 de le mettre sur le [groupe de Meetup de CakePHP-France](http://www.meetup.com/CakePHP-France)
-sur le [forum](forum.cakephp-fr.org/viewtopic.php?id=7291) ou sur
+sur le [forum](http://forum.cakephp-fr.org/viewtopic.php?id=7291) ou sur
 [twitter](https://twitter.com/cakephpfr).
 
 La meetup d'Amiens a eu lieu le 25 mars ! Vous pouvez retrouver des

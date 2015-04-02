@@ -1,0 +1,158 @@
+/**
+ * Css specific to this website
+ */
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  font-size: 15px;
+  // border: 1px solid $grey-color-light;
+  border-radius: 3px;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: scroll;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+// Layouts
+header {
+  background-color: $primary-color;
+  color: white;
+  font-size: $header-font-size - $header-font-reduction;
+  line-height: $base-line-height;
+}
+header a {
+  color: white;
+}
+header a:focus,  header a:hover{
+  color: black;
+}
+
+.site-title {
+  font-size: 2rem;
+  line-height: 2rem;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  padding-top: 3.5rem;
+  padding-bottom: 0.8rem;
+  color: #FFFFFF;
+}
+@media only screen and (max-width: 40em) {
+  .site-title {
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+    color: #FFFFFF;
+  }
+}
+
+// Styles for h1, h2, ....
+h1 {
+  color: $black;
+  font-weight: $font-weight-bold;
+}
+h2 {
+  color: $red;
+  font-weight: $font-weight-bold;
+}
+h3 {
+  color: $yellow;
+}
+
+// footer
+.footer {
+  background-color: $primary-color;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: #fff;
+  i {
+    font-size: 100px;
+  }
+  a {
+    color: black;
+    font-weight: $font-weight-bold;
+  }
+}
+.footer {
+  h4 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    margin-bottom: 10px;
+  }
+  p {
+    font-weight: 300;
+    font-size: .8rem;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .footer {
+    .columns:nth-child(n+2) {
+      border-left: 1px solid scale-color(#fff, $lightness: -30%);
+      min-height: 280px;
+    }
+  }
+}
+.footer-links {
+  list-style-type: none;
+  i {
+    font-size: .8rem;
+  }
+  a {
+    color: #fff;
+    font-weight: 300;
+    font-size: .8rem;
+  }
+  li {
+    margin-top: .8rem;
+  }
+}
+ul.footer-links {
+  margin-left: 0;
+}
+
+// imgs
+// header
+@media only screen and (max-width: 40em) {
+  .img-header  {
+    max-width: 25%;
+    height:auto;
+  }
+}
+@media only screen and (min-width: 40em) {
+  .img-header  {
+    max-width: 70%;
+    height:auto;
+  }
+}
+@media only screen and (max-width: 40em) {
+  .img-footer {
+    max-width: 25%;
+    height:auto;
+  }
+}
+@media only screen and (min-width: 40em) {
+  .img-footer {
+    max-width: 20%;
+    height:auto;
+  }
+}

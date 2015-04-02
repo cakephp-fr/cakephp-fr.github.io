@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Projets pour 2015"
-date:   2015-01-20 10:50:47
 categories: actualites
 ---
 

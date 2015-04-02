@@ -1,15 +1,20 @@
 {% include navbar.html %}
-<header class="site-header">
-	<div class="row">
-        <div class="medium-2 columns text-center">
-            <h1 class="logo">
-                <a href="{{ site.baseurl }}/"><img src="/img/cake-logo.png" alt="CakePHP : the rapid development php framework" /></a>
-            </h1>
-        </div>
-        <div class="medium-10 columns">
-            <h2 class="site-title text-center">
-                {{ site.title }}
-            </h2>
-        </div>
+
+<header>
+
+  <div class="row">
+    <div class="medium-3 columns text-center">
+      <a href="{{ site.baseurl }}/">
+        <img class="img-header" src="/img/cake-logo.png" alt="CakePHP : the rapid development php framework" />
+      </a>
     </div>
+    <div class="medium-9 columns">
+      <div class="site-title text-center">
+        <a href="{{ site.baseurl }}/">
+          {{ site.title }}
+        </a>
+      </div>
+    </div>
+  </div>
+
 </header>

@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Newsletter de Février"
-date:   2015-02-01 10:50:47
+title:  "Newsletter de février"
 categories: actualites
 ---
 

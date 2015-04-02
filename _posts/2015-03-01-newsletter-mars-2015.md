@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Newsletter de Mars"
-date:   2015-03-01 10:50:47
+title:  "Newsletter de mars"
 categories: actualites
 ---
 
