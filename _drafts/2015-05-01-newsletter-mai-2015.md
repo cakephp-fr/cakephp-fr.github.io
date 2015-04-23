@@ -5,7 +5,22 @@ date:   2015-05-01 10:50:47
 categories: actualites
 ---
 
-Petit Récap du moi ici ...
+Bonjour à tous,
+
+Le mois d'avril est un mois qui stabilise la version 3 du framework. Les
+plugins se mettent doucement à jour pour cette version.
+
+Petit message aux utilisateurs désireux de rencontrer des développeurs et
+d'assister à des conférences sur le PHP:
+
+Le PHP Tour Luxembourg 2015 se tiendra les 12 et 13 mai prochains, à
+Luxembourg-Ville. Première édition au delà des frontières françaises, pour
+aller aussi à la rencontre d'autres développeurs francophones !
+PHP 7, Cloud, workshops, retours d'expérience, le programme est encore une fois
+pointu et copieux : www.phptour.org
+
+Pour ceux interessés, un coupon de réduction de 50€ sur le pass 2 jours est
+offert aux utilisateurs du forum CakePHP.
 
 Meetups prévues
 ---------------
