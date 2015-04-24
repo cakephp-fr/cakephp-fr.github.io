@@ -34,13 +34,17 @@ de le mettre sur le groupe de Meetup sur le
 Statistiques du site
 --------------------
 
-Un petit récap de l'activité du site pour le mois d'avril:
+### Un petit récap de l'activité du site pour le mois d'avril:
 
-- Nombre d'inscriptions sur le site :
-  Bienvenue à xxx, xxx.
-- Nombre de messages sur le forum Entraide :
-- Nombre de messages sans réponse :
 
+|                                 |Janvier | Février |   Mars   |  Avril |
+|---------------------------------|--------|---------|----------|--------|
+|Nb d'inscriptions sur le forum   |   11   |   10    |    20    | **11** |
+|Nb de sujets Entraide            |   37   |   31    |    38    | ** **  |
+|Nb de messages sans réponse      |   0    |   2     |    1     | ** **  |
+
+Bienvenue à Crazyweedz, The_Folklore, SAmpistaroy, stitch, mister-stitch,
+arsenepoutsi, FifaCrack, klycylix, Sarahs, Gobi et young.
 
 Pdf de statistiques de Google Analytics:
 
@@ -51,13 +55,15 @@ Dernières versions de CakePHP
 
 Au 1er mai 2015:
 
-- [CakePHP 2.6.x](https://github.com/cakephp/cakephp/releases/tag/2.6.x)
-- [CakePHP 3.0.x](https://github.com/cakephp/cakephp/releases/tag/3.0.x)
+- [CakePHP 2.6.4](https://github.com/cakephp/cakephp/releases/tag/2.6.4)
+- [CakePHP 3.0.2](https://github.com/cakephp/cakephp/releases/tag/3.0.2)
 
 Ressources, Plugins & Contributions
 -----------------------------------
 
-
+- [Plugin pour utiliser Bootstrap 3](https://github.com/FriendsOfCake/bootstrap-ui)
+- [Environnement virtuel pour vos projets PHP](https://github.com/alt3/cakebox)
+- [Plugin CRUD](https://github.com/FriendsOfCake/crud)
 - Vous pouvez faire une pull request sur [ce dépôt](https://github.com/cakephp-fr/cakephp-fr.github.io/blob/master/_drafts/2015-05-01-newsletter-mai-2015.md) pour ajouter les articles, plugins qui pourraient intéresser la communauté
 pour le mois prochain.
 
