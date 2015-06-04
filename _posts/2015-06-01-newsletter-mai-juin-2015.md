@@ -14,7 +14,8 @@ Luxembourg-Ville.
 Pour revoir des vidéos sur l'avenir du langage PHP (PHP 7 notamment), rendez-vous
 [ici](https://www.youtube.com/playlist?list=PL9zDdgiGjkIc_1wnKTdU68dmVZ77ayPwW)
 
-Le CakeFest a également eu lieu, les vdéos ne sont pas encore visibles, mais
+Le CakeFest a également eu lieu du 28 au 31 mai à New York, les vdéos ne sont
+pas encore visibles, mais
 [certains slides de présentations](http://fr.slideshare.net/josezap1/agile-database-access)
 ont été partagés.
 
@@ -38,6 +39,8 @@ Statistiques du site
 |Nb d'inscriptions sur le forum   |   11   |   10    |    20    | **17** |  **16** |
 |Nb de sujets Entraide            |   37   |   31    |    38    | **34** |  **37** |
 |Nb de messages sans réponse      |   0    |   2     |    1     | **1**  |  **0**  |
+
+<br>
 
 Bienvenue à Crazyweedz, The_Folklore, SAmpistaroy, stitch, mister-stitch,
 arsenepoutsi, FifaCrack, klycylix, Sarahs, Gobi, young, goood, Mariem, Celsius,
