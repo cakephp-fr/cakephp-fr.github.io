@@ -5,10 +5,8 @@ permalink: /meetups/
 ---
 
 Cette page recense toutes les rencontres entre développeurs CakePHP en France
-(ordre alphabétique).
-
-Que vous soyez utilisateur de CakePHP ou curieux souhaitant découvrir le
-framework, **participez à un évènement près de chez vous pour progresser,
+(ordre alphabétique). Que vous soyez utilisateur de CakePHP ou curieux souhaitant
+découvrir le framework, **participez à un évènement près de chez vous pour progresser,
 partager vos connaissances et découvrir de nouvelles choses.**
 
 En tant que participant, soyez accueillant et ouvert en respectant les autres

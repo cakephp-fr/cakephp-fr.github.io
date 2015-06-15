@@ -25,23 +25,20 @@ layout: default
 
     </p>
     <p>Envie d'aider ou de proposer des améliorations ? </p>
-    <a role="button" href="{{ "/contribuer" | prepend: site.baseurl }}" class="button tiny round">C'est possible !</a>
+    <a role="button" href="{{ "/contribuer" | prepend: site.baseurl }}" class="button tiny round secondary">C'est possible !</a>
 
     <h2>Actualités</h2>
 
-    <a role="button" href="{{ "/contribuer" | prepend: site.baseurl }}" class="button tiny round">Proposer une actualité</a>
-    <a role="button" href="{{ "/feed.xml" | prepend: site.baseurl }}" class="button tiny round">S'abonner via RSS</a>
+    <a role="button" href="{{ "/contribuer" | prepend: site.baseurl }}" class="button tiny round secondary">Proposer une actualité</a>
+    <a role="button" href="{{ "/feed.xml" | prepend: site.baseurl }}" class="button tiny round secondary">S'abonner via RSS</a>
 
-    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+    <ul class="ul-actu">
       {% for post in site.posts %}
-      <li>
-        <div class="panel">
-          <div class="text-center">{{ post.date | date: "%d/%m/%Y" }}</div>
+        <li>
           <h3>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            {{ post.date | date: "%d/%m/%Y" }} <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h3>
-        </div>
-      </li>
+        </li>
       {% endfor %}
     </ul>
 

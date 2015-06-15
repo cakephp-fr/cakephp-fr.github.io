@@ -1381,7 +1381,7 @@ $header-line-height: 2.4;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: $oil;
+// $topbar-bg-color: $white;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1468,10 +1468,17 @@ $header-line-height: 2.4;
 
 // 37. Custom Variables
 // - - - - - - - - - - - - - - - - - - - - - - - - -
+$white          : #FFFFFF;
 $red            : #c92434;
 $yellow         : #BD8A5D;
 $primary-color  : #437284;
+$gray           : #D8D8D8;
 $secondary-color: #e7e7e7;
+$topbar-bg-color: $primary-color;
+$topbar-bg: $topbar-bg-color;
+$button-bg-color: $white;
 
 $header-font-size: rem-calc(35);
 $header-font-reduction: rem-calc(10);
+$topbar-button-font-size: 0.9rem;
+$topbar-button-top: 9px;

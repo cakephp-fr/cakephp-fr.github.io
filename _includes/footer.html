@@ -1,60 +1,26 @@
 <footer class="footer">
 
-  <div class="row">
+  {% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}" class="button radius">
+    <i class="fi-social-twitter"></i>
+    <!-- {{ site.twitter_username }} -->
+    </a>
+  {% endif %}
 
-    <div class="small-12 medium-8 columns">
-      <h4> {{ site.title }} </h4>
-      <a href="/"><img class="img-footer round" src="/img/cake-logo.png" alt="CakePHP : the rapid development php framework" /></a>
-      <p>{{ site.description_welcome }}</p>
-    </div>
+  {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" class="button radius">
+      <i class="fi-social-github"></i>
+      <!-- {{ site.github_username }} -->
+    </a>
+  {% endif %}
 
-    <hr class="show-for-small-only">
+  {% if site.meetup_username %}
+    <a href="http://meetup.com/{{ site.meetup_username }}" class="button radius">
+    <i class="fi-torsos-all"></i>
+    <!-- {{ site.meetup_username }} -->
+  </a>
+  {% endif %}
 
-    <div class="small-12 medium-2 columns">
-      <h4>Sitemap</h4>
-      <ul class="footer-links">
-        <li><a href="/contribuer">Contribuer</a></li>
-        <li><a href="/irc">IRC</a></li>
-        <li><a href="/meetups">Meetups</a></li>
-        <li><a href="http://forum.cakephp-fr.org">Forum</a></li>
-      <ul>
-    </div>
-
-    <hr class="show-for-small-only">
-
-    <div class="small-12 medium-2 columns">
-      <h4>Suivez-nous</h4>
-      <ul class="footer-links">
-        {% if site.twitter_username %}
-        <li>
-          <a href="https://twitter.com/{{ site.twitter_username }}">
-            <i class="fi-social-twitter"></i>
-            {{ site.twitter_username }}
-          </a>
-        </li>
-        {% endif %}
-
-        {% if site.github_username %}
-        <li>
-          <a href="https://github.com/{{ site.github_username }}">
-            <i class="fi-social-github"></i>
-            {{ site.github_username }}
-          </a>
-        </li>
-        {% endif %}
-        {% if site.meetup_username %}
-        <li>
-          <a href="http://meetup.com/{{ site.meetup_username }}">
-            <i class="fi-torsos-all"></i>
-            {{ site.meetup_username }}
-          </a>
-        </li>
-        {% endif %}
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      <ul>
-
-    </div>
-
-  </div>
+  <a href="mailto:{{ site.email }}" class="button radius"><i class="fi-mail"></i></a>
 
 </footer>
