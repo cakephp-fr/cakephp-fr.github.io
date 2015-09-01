@@ -37,7 +37,7 @@ Statistiques du site
 |                                 |Janvier | Février |   Mars   |  Avril |  Mai  |  Juin  |  Juillet  |  Août  |
 |---------------------------------|--------|---------|----------|--------|-------|--------|-----------|--------|
 |Nb d'inscriptions sur le forum   |   11   |   10    |    20    | 11     |  15   |  23    |   19      |  10    |
-|Nb de messages sans réponse      |   0    |   2     |    1     |  1     |   1   |   4    |    3      |        |
+|Nb de messages sans réponse      |   0    |   2     |    1     |  1     |   1   |   4    |    3      |   0    |
 
 Bienvenue à tous les nouveaux.
 
