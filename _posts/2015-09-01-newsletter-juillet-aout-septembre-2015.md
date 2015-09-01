@@ -52,6 +52,10 @@ Au 1er septembre 2015:
 Ressources, Plugins & Contributions
 -----------------------------------
 
+- Une vidéo sur les bonnes pratiques de [Composer](https://www.youtube.com/watch?v=4LQjWVbp6gw) par son créateur.
+- Un [petit récapitulatif](http://semver.org/lang/fr) des bonnes pratiques pour
+  nommer les versions de vos plugins, applications, etc...
+
 Vous pouvez faire une pull request sur
 [ce dépôt](https://github.com/cakephp-fr/cakephp-fr.github.io/blob/master/_drafts/2015-10-01-newsletter-octobre-2015.md)
 pour ajouter les articles, plugins qui pourraient intéresser la communauté pour
