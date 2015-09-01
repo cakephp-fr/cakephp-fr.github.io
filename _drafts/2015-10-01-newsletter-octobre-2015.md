@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Newsletter de Juillet-Août"
+title:  "Newsletter d'octobre"
 categories: actualites
 ---
 
@@ -37,7 +37,7 @@ Pdf de statistiques de Google Analytics:
 Dernières versions de CakePHP
 -----------------------------
 
-Au 1er juillet 2015:
+Au 1er octobre 2015:
 
 - [CakePHP 2.6.x](https://github.com/cakephp/cakephp/releases/tag/2.6.x)
 - [CakePHP 3.0.x](https://github.com/cakephp/cakephp/releases/tag/3.0.x)
