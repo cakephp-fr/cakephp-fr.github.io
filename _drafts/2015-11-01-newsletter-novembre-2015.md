@@ -24,16 +24,84 @@ code.
 
 On voit aussi l'avantage que cela a sur la configuration d'une application mise
 en ligne, puisqu'il nous suffira de modifier les variables d'environnement que
-l'on souhaite sans avoir à faire une modification du code et donc sans avoir
+l'on souhaite, sans avoir à faire une modification du code et donc sans avoir
 à faire un commit avec la modification de notre configuration.
 
 ## Et Docker dans tout ça
 
-Tout ceci va avoir un intérêt supplémentaire si vous utilisez un service comme Docker.
+Tout ceci va avoir un intérêt supplémentaire si vous utilisez un service comme Docker. Si vous souhaitez tester comment pourrait se dérouler le développement
+d'une application CakePHP 3 avec docker, vous pouvez faire ce qui suit:
+
+    git clone git@github.com:cakephp-fr/app.git
+    cd app
+    composer install --prefer-dist
+
+Vous allez ainsi avoir un squelette d'application correspondant au squelette
+officiel. Effectivement si vous installez un projet CakePHP avec [la méthode
+officielle](http://book.cakephp.org/3.0/fr/installation.html#installer-cakephp),
+avec `composer create-project --prefer-dist cakephp/app [app_name]`, vous
+obtiendrez le même squelette à 3 exceptions près:
+
+* Le fichier `config/bootstrap.php` contient les variables d'environnement `CAKEPHP_TIMEZONE_DEFAULT` et `CAKEPHP_LOCALE_DEFAULT`.
+* Le fichier `config/app.default.php` contient de nombreuses variables d'environnement. De plus, les configurations aux services utilisent une url.
+Cela permet de donner une configuration en une seule ligne, plutôt qu'avec un
+tableau de configuration.
+Je prends un exemple avec la configuration pour la base de données. On va utiliser ceci:
+
+    'Datasources' => [
+        'default' => [
+            'url' => env('CAKEPHP_DATABASE_DEFAULT_URL', 'mysql://my_app:secret@localhost/my_app')
+        ]
+    ]
+
+plutôt que l'ancienne version avec une configuration avec chaque paramètre défini:
+
+    'Datasources' => [
+        'default' => [
+            'className' => 'Cake\Database\Connection',
+            'driver' => 'Cake\Database\Driver\Mysql',
+            'persistent' => false,
+            'host' => 'localhost',
+            'port' => 'nonstandard_port_number',
+            'username' => 'my_app',
+            'password' => 'secret',
+            'database' => 'my_app',
+            'encoding' => 'utf8',
+            'timezone' => 'UTC',
+            'cacheMetadata' => true,
+            'log' => false,
+            'quoteIdentifiers' => false,
+            'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
+        ],
+    ]
+
+Vous vous demanderez pourquoi utiliser une url alors que la configuration
+'classique' parait plus lisible. Et bien, grâce à la nouvelle façon de configurer, on peut facilement changer de type base de données et par exemple,
+une connexion pour une base de données postgres pourrait se faire avec:
+
+    'url' => env('CAKEPHP_DATABASE_DEFAULT_URL', 'postgres://my_app:secret@localhost/my_app')
+
+Il suffit donc de changer une seule variable d'environnement pour changer votre
+configuration vers un autre type de base de données.
+
+De la même façon tous les autres services, de cache, de log, pour le transport
+d'email, ... il suffira de changer une url qui contient tous les paramètres
+pour avoir un nouveau service bien configuré. On se rapproche ainsi d'une
+application 12factor, où les variables de l'application sont sorties du code
+et où on peut les changer pendant qu'une application tourne.
+
+* ajout d'un fichier docker-compose.yml à la racine qui contient les configurations des containers (un avec mysql, un avec nginx, etc...) liés entre eux. Vous pouvez ainsi lancer en une commande l'ensemble des librairies nécessaires pour faire marcher votre application CakePHP 3:
+
+    docker-compose up -d
+
+ Et Voilà, plus besoin d'installer un serveur nginx local, un serveur de base de
+ données, un serveur de cache, etc... Tout sera téléchargé et executé dans des
+ containers ce qui vous permet de préserver votre OS sans avoir à installer des librairies, ni avoir à les configurer.
 
 ## Docker pour participer à la documentation de CakePHP
 
-Les docs de CakePHP utilisent des librairies comme sphinx ou latex pour
+On va pouvoir utiliser aussi Docker pour construire la documentation de
+CakePHP. Les docs de CakePHP utilisent des librairies comme sphinx ou latex pour
 construire la documentation dans différents formats : pdf, latex, html, ...
 
 Pour cela, il faut avoir installé les bons logiciels, aux bonnes versions et
