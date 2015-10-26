@@ -106,6 +106,15 @@ seront celles écrites dans ces fichiers.
 Bien sûr, vous devez avoir `docker` [installé sur votre ordinateur](https://docs.docker.com/mac/step_one/) et si vous êtes sur mac
 ou windows, être dans un `terminal Docker`.
 
+Vous pouvez maintenant voir votre application dans votre navigateur en faisant:
+
+    # vous aurez une adresse du type '192.168.99.100'
+    docker-machine ip default
+    # vous récupérer le port pour nginx, du type '32779'
+    docke-compose ps
+
+Entrez dans votre navigateur : `192.168.99.100:32779` pour notre exemple (à modifier selon ce que vous récupérez).
+
  Et Voilà, plus besoin d'installer un serveur nginx local, un serveur de base de
  données, un serveur de cache, etc... Tout sera téléchargé et executé dans des
  containers ce qui vous permet de préserver votre OS sans avoir à installer des librairies, ni avoir à les configurer.
