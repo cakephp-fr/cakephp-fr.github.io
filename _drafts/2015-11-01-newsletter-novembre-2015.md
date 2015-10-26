@@ -7,8 +7,8 @@ categories: actualites
 Bonjour à tous,
 
 CakePHP continue son cycle de développement en améliorant la version 3, qui en
-est maintenant à la version 3.1.3. Une amélioration me semble intéressant à
-noter : il s'agit des variables d'environnement. Une [RFC](https://github.com/cakephp/app/issues/224) est en cours de
+est maintenant à la version 3.1.3. Il me semble intéressant de noter une
+amélioration qui se prépare : il s'agit des variables d'environnement. Une [RFC](https://github.com/cakephp/app/issues/224) est en cours de
 discussion à propos des variables d'environnement et de leur intégration dans
 le squelette d'application [app](https://github.com/cakephp/app) quand on créé
 un nouveau projet CakePHP.
