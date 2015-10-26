@@ -34,6 +34,8 @@ d'une application CakePHP 3 avec docker, vous pouvez faire ce qui suit:
 
     git clone git@github.com:cakephp-fr/app.git
     cd app
+    # on va sur la branche avec la version de CakePHP 'dockerizé'
+    git checkout docker
     composer install --prefer-dist
 
 Vous allez ainsi avoir un squelette d'application correspondant au squelette
@@ -46,6 +48,7 @@ obtiendrez le même squelette à 3 exceptions près:
 * Le fichier `config/app.default.php` contient de nombreuses variables d'environnement. De plus, les configurations aux services utilisent une url.
 Cela permet de donner une configuration en une seule ligne, plutôt qu'avec un
 tableau de configuration.
+
 Je prends un exemple avec la configuration pour la base de données. On va utiliser ceci:
 
     'Datasources' => [
@@ -84,15 +87,24 @@ une connexion pour une base de données postgres pourrait se faire avec:
 Il suffit donc de changer une seule variable d'environnement pour changer votre
 configuration vers un autre type de base de données.
 
-De la même façon tous les autres services, de cache, de log, pour le transport
-d'email, ... il suffira de changer une url qui contient tous les paramètres
-pour avoir un nouveau service bien configuré. On se rapproche ainsi d'une
-application 12factor, où les variables de l'application sont sorties du code
-et où on peut les changer pendant qu'une application tourne.
+On ferait de la même façon pour les autres services, de cache, de log, pour le
+transport d'email, ... il suffira de changer une url qui contient tous les
+paramètres pour avoir un nouveau service bien configuré. On se rapproche ainsi
+d'une application 12factor, où les variables de l'application sont sorties du
+code et où elles peuvent être changées pendant qu'une application tourne.
 
-* ajout d'un fichier docker-compose.yml à la racine qui contient les configurations des containers (un avec mysql, un avec nginx, etc...) liés entre eux. Vous pouvez ainsi lancer en une commande l'ensemble des librairies nécessaires pour faire marcher votre application CakePHP 3:
+Si vous ne désirez pas utiliser Docker, comme expliqué dans le point suivant,
+vous pouvez lancer votre application comme avant, en définissant les valeurs
+de configuration directement dans les fichiers `app.php` et `bootstrap.php`.
+Si les variables d'environnement ne sont pas définies, les valeurs utilisées
+seront celles écrites dans ces fichiers.
+
+* enfin, la drnière modification faite est l'ajout d'un fichier docker-compose.yml à la racine qui contient les configurations des containers (un avec mysql, un avec nginx, etc...) liés entre eux. Vous pouvez ainsi lancer en une commande l'ensemble des librairies nécessaires pour faire marcher votre application CakePHP 3:
 
     docker-compose up -d
+
+Bien sûr, vous devez avoir `docker` [installé sur votre ordinateur](https://docs.docker.com/mac/step_one/) et si vous êtes sur mac
+ou windows, être dans un `terminal Docker`.
 
  Et Voilà, plus besoin d'installer un serveur nginx local, un serveur de base de
  données, un serveur de cache, etc... Tout sera téléchargé et executé dans des
