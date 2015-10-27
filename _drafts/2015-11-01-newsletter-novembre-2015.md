@@ -79,8 +79,8 @@ plutôt que l'ancienne version avec une configuration avec chaque paramètre dé
     ]
 
 Vous vous demanderez pourquoi utiliser une url alors que la configuration
-'classique' parait plus lisible. Et bien, grâce à la nouvelle façon de configurer, on peut facilement changer de type base de données et par exemple,
-une connexion pour une base de données postgres pourrait se faire avec:
+'classique' parait plus lisible. Et bien, grâce à la nouvelle façon de configurer, on peut facilement changer de type base de données. Par exemple,
+une connexion pour une base de données postgres pourrait se faire de la façon suivante :
 
     'url' => env('CAKEPHP_DATABASE_DEFAULT_URL', 'postgres://my_app:secret@localhost/my_app')
 
