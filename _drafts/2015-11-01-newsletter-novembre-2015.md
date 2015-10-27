@@ -182,6 +182,11 @@ Au 1er novembre 2015:
 Ressources, Plugins & Contributions
 -----------------------------------
 
+- De nouveaux plugins ont été créés sur github. Ils sont en développement donc si vous souhaitez apporter votre aide, n'hésitez pas !
+    - [Plugin cookies-eu](https://github.com/cakephp-fr/cookies-eu)
+    - [Plugin oauth](https://github.com/cakephp-fr/oauth)
+    - [Plugin recaptcha](https://github.com/cakephp-fr/recaptcha)
+
 - Auto-promo avec des [Dockerfile](https://hub.docker.com/r/cake17/cakephp/) pour la documentation de CakePHP.
 
 - Vous pouvez faire une pull request sur [ce dépôt](https://github.com/cakephp-fr/cakephp-fr.github.io/blob/master/_drafts/2015-12-01-newsletter-decembre-2015.md) pour ajouter les articles, plugins qui pourraient intéresser la communauté
