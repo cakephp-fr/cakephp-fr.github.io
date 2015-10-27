@@ -99,9 +99,9 @@ de configuration directement dans les fichiers `app.php` et `bootstrap.php`.
 Si les variables d'environnement ne sont pas définies, les valeurs utilisées
 seront celles écrites dans ces fichiers.
 
-* enfin, la drnière modification faite est l'ajout d'un fichier docker-compose.yml à la racine qui contient les configurations des containers (un avec mysql, un avec nginx, etc...) liés entre eux. Vous pouvez ainsi lancer en une commande l'ensemble des librairies nécessaires pour faire marcher votre application CakePHP 3:
+* enfin, la dernière modification faite est l'ajout d'un fichier docker-compose.yml à la racine qui contient les configurations des containers (un avec mysql, un avec nginx, etc...) liés entre eux. Vous pouvez ainsi lancer en une commande l'ensemble des librairies nécessaires pour faire marcher votre application CakePHP 3:
 
-    docker-compose up -d
+      docker-compose up -d
 
 Bien sûr, vous devez avoir `docker` [installé sur votre ordinateur](https://docs.docker.com/mac/step_one/) et si vous êtes sur mac
 ou windows, être dans un `terminal Docker`.
@@ -111,7 +111,7 @@ Vous pouvez maintenant voir votre application dans votre navigateur en faisant:
     # vous aurez une adresse du type '192.168.99.100'
     docker-machine ip default
     # vous récupérer le port pour nginx, du type '32779'
-    docke-compose ps
+    docker-compose ps
 
 Entrez dans votre navigateur : `192.168.99.100:32779` pour notre exemple (à modifier selon ce que vous récupérez).
 
