@@ -183,7 +183,7 @@ Ressources, Plugins & Contributions
 -----------------------------------
 
 - De nouveaux plugins ont été créés sur github. Ils sont en développement donc si vous souhaitez apporter votre aide, n'hésitez pas !
-    - [Plugin cookies-eu](https://github.com/cakephp-fr/cookies-eu)
+    - [Plugin cookies-eu](https://github.com/cakephp-fr/cookie-warning)
     - [Plugin oauth](https://github.com/cakephp-fr/oauth)
     - [Plugin recaptcha](https://github.com/cakephp-fr/recaptcha)
 
