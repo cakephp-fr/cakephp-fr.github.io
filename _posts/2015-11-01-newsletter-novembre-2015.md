@@ -127,7 +127,7 @@ construire la documentation dans différents formats : pdf, latex, html, ...
 
 Pour cela, il faut avoir installé les bons logiciels, aux bonnes versions et
 selon son OS, cela peut s'avérer très compliqué. Grâce à Docker, ce problème
-est résolu. Il faut bien évidememnt avoir docker installé et ensuite, vous allez
+est résolu. Il faut bien évidemment avoir docker installé et ensuite, vous allez
 dans votre dossier local des docs, et vous lancez cette commande:
 
     # Pour construire la version html
