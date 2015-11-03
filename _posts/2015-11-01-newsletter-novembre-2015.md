@@ -132,19 +132,19 @@ dans votre dossier local des docs, et vous lancez cette commande:
 
     # Pour construire la version html
     cd /path/to/your/local/docs
-    docker run -it --rm -v $(pwd):/data cake17/cakephp:docs make html
+    docker run -it --rm -v $(pwd):/data cake17/cakephp:cakephp-docs make html
 
     # Pour construire la version epub
     cd /path/to/your/local/docs
-    docker run -it --rm -v $(pwd):/data cake17/cakephp:docs make epub
+    docker run -it --rm -v $(pwd):/data cake17/cakephp:cakephp-docs make epub
 
     # Pour construire la version latex
     cd /path/to/your/local/docs
-    docker run -it --rm -v $(pwd):/data cake17/cakephp:docs make latex
+    docker run -it --rm -v $(pwd):/data cake17/cakephp:cakephp-docs make latex
 
     # Pour construire la version pdf
     cd /path/to/your/local/docs
-    docker run -it --rm -v $(pwd):/data cake17/cakephp:docs make pdf
+    docker run -it --rm -v $(pwd):/data cake17/cakephp:cakephp-docs make pdf
 
 
 Meetups prévues
