@@ -1,9 +1,9 @@
 {
-  "name": "cakephp-fr-github.website",
-  "version": "0.0.1",
-  "private": "true",
-  "dependencies": {
-    "foundation": "zurb/bower-foundation",
-    "foundation-icon-fonts": "*"
-  }
+    "name": "cakephp-fr-github.website",
+    "version": "0.0.1",
+    "private": "true",
+    "dependencies": {
+        "foundation": "zurb/bower-foundation",
+        "foundation-icon-fonts": "*"
+    }
 }
