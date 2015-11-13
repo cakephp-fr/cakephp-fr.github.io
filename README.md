@@ -22,7 +22,8 @@ For further information, please read [Using Jekyll with Pages](https://help.gith
     - bower : dependancy manager for assets
     - gulp : utility to execute some task like concatenation for assets
 
-- To update assets
+- To update assets:
+
       // update foundation with all its dependancies in ``bower_components``
       ./node_modules/.bin/bower update
       // recreates the app.js file which groups all js files minified (js files from foundation, jquery, modernizr, fastclick, ...)
