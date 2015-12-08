@@ -132,19 +132,19 @@ dans votre dossier local des docs, et vous lancez cette commande:
 
     # Pour construire la version html
     cd /path/to/your/local/docs
-    docker run -it --rm -v $(pwd):/data cake17/cakephp:cakephp-docs make html
+    docker run -it --rm -v $(pwd):/data cakephpfr/docs make html
 
     # Pour construire la version epub
     cd /path/to/your/local/docs
-    docker run -it --rm -v $(pwd):/data cake17/cakephp:cakephp-docs make epub
+    docker run -it --rm -v $(pwd):/data cakephpfr/docs make epub
 
     # Pour construire la version latex
     cd /path/to/your/local/docs
-    docker run -it --rm -v $(pwd):/data cake17/cakephp:cakephp-docs make latex
+    docker run -it --rm -v $(pwd):/data cakephpfr/docs make latex
 
     # Pour construire la version pdf
     cd /path/to/your/local/docs
-    docker run -it --rm -v $(pwd):/data cake17/cakephp:cakephp-docs make pdf
+    docker run -it --rm -v $(pwd):/data cakephpfr/docs make pdf
 
 
 Meetups prévues
@@ -187,7 +187,7 @@ Ressources, Plugins & Contributions
     - [Plugin oauth](https://github.com/cakephp-fr/oauth)
     - [Plugin recaptcha](https://github.com/cakephp-fr/recaptcha)
 
-- Auto-promo avec des [Dockerfile](https://hub.docker.com/r/cake17/cakephp/) pour la documentation de CakePHP.
+- Auto-promo avec des [Dockerfile](https://hub.docker.com/r/cakephpfr/docs/) pour la documentation de CakePHP.
 
 - Vous pouvez faire une pull request sur [ce dépôt](https://github.com/cakephp-fr/cakephp-fr.github.io/blob/master/_drafts/2015-12-01-newsletter-decembre-2015.md) pour ajouter les articles, plugins qui pourraient intéresser la communauté
 pour le mois prochain.
