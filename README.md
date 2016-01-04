@@ -9,7 +9,9 @@ The site is built with Jekyll and hosted on Github Pages.
 If you want to contribute and test your changes locally, use docker and run:
 
 ```
-docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll jekyll s --force_polling
+docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll \
+  -it -p $(docker-machine ip `docker-machine active`):4000:4000 \
+    jekyll/jekyll
 ```
 
 et voilà! The site should be available at `http://machine_ip:4000`.
@@ -23,7 +25,6 @@ For further information, please read [Using Jekyll with Pages](https://help.gith
     - gulp : utility to execute some task like concatenation for assets
 
 - To update assets:
-
       // update foundation with all its dependancies in ``bower_components``
       ./node_modules/.bin/bower update
       // recreates the app.js file which groups all js files minified (js files from foundation, jquery, modernizr, fastclick, ...)
