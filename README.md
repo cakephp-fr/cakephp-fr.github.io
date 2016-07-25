@@ -1,7 +1,9 @@
-siteweb
-=======
+Community Website for cakephp-fr
+================================
 
-Community website for cakephp-fr
+## Cakephp.org
+
+If you want official information about CakePHP, please go to [the official website of CakePHP](http://www.cakephp-org).
 
 ## Development
 
@@ -9,12 +11,10 @@ The site is built with Jekyll and hosted on Github Pages.
 If you want to contribute and test your changes locally, use docker and run:
 
 ```
-docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll \
-  -it -p $(docker-machine ip `docker-machine active`):4000:4000 \
-    jekyll/jekyll
+docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll:pages
 ```
 
-et voilà! The site should be available at `http://machine_ip:4000`.
+et voilà! The site should be available at `http://localhost:4000`.
 
 For further information, please read [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/) and [Using Jekyll with Docker](https://github.com/jekyll/docker)
 

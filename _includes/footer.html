@@ -1,26 +1,36 @@
-<footer class="footer">
-
-  {% if site.twitter_username %}
-    <a href="https://twitter.com/{{ site.twitter_username }}" class="button radius">
-    <i class="fi-social-twitter"></i>
-    <!-- {{ site.twitter_username }} -->
+<nav class="navbar navbar-fixed-bottom navbar-light bg-faded">
+  <div class="nav navbar-nav">
+    <a class="nav-item nav-link" href="{{ site.baseurl }}/">
+      CakePHP-fr <span class="hidden-md-down"> - Communauté francophone de CakePHP</span>
     </a>
-  {% endif %}
 
-  {% if site.github_username %}
-    <a href="https://github.com/{{ site.github_username }}" class="button radius">
-      <i class="fi-social-github"></i>
-      <!-- {{ site.github_username }} -->
+    <a class="nav-item nav-link active" href="#"> </a>
+    {% if site.meetup_username %}
+    <a class="nav-item nav-link" href="http://meetup.com/{{ site.meetup_username }}"><i class="fa fa-users fa-2x pull-left"></i> <span class="hidden-sm-down">Meetups</span</a>
+    {% endif %}
+
+    {% if site.twitter_username %}
+    <a class="nav-item nav-link" href="https://twitter.com/{{ site.twitter_username }}" type="button" class="btn btn-primary">
+      <i class="fa fa-twitter fa-2x pull-left"></i> <span class="hidden-sm-down">Twitter</span>
+    </button>
+    {% endif %}
+    {% if site.github_username %}
+    <a class="nav-item nav-link" href="https://github.com/{{ site.github_username }}" type="button" class="btn btn-primary">
+      <i class="fa fa-github fa-2x pull-left"></i> <span class="hidden-sm-down">Github</span>
     </a>
-  {% endif %}
-
-  {% if site.meetup_username %}
-    <a href="http://meetup.com/{{ site.meetup_username }}" class="button radius">
-    <i class="fi-torsos-all"></i>
-    <!-- {{ site.meetup_username }} -->
-  </a>
-  {% endif %}
-
-  <a href="mailto:{{ site.email }}" class="button radius"><i class="fi-mail"></i></a>
-
-</footer>
+    {% endif %}
+    {% if site.docker_username %}
+    <a class="nav-item nav-link" href="https://hub.docker.com/u/{{site.docker_username}}/"<li>
+      <i class="fa fa-cloud fa-2x pull-left"></i> <span class="hidden-sm-down">Docker</span>
+    </a>
+    {% endif %}
+    {% if site.email %}
+    <a class="nav-item nav-link" href="mailto:{{ site.email }}" type="button" class="btn btn-primary">
+      <i class="fa fa-envelope fa-2x pull-left"></i> <span class="hidden-sm-down">Email</span>
+    </a>
+    {% endif %}
+    <a class="nav-item nav-link" href="http://forum.cakephp-fr.org"<li>
+      <i class="fa fa-list fa-2x pull-left"></i> <span class="hidden-sm-down">Forum</span>
+    </a>
+  </div>
+</nav>
