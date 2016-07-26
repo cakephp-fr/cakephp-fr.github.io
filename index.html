@@ -2,45 +2,64 @@
 layout: default
 ---
 
-<div class="row">
-  <div class="small-12 columns">
-
-  <h1>Bienvenue</h1>
-
-    <p>
-      Bienvenue sur le site de la communauté francophone de CakePHP. <strong>Vous trouverez ici toutes les informations nécessaires
-      pour échanger avec d'autres professionnels et partager votre expérience.</strong>
-    </p>
-    <p>
-      CakePHP-fr.org est un complément aux ressources officielles disponibles sur <a href="http://www.cakephp.org">CakePHP.org</a> (Documentation, API, tickets ...). Si vous souhaitez apprendre le framework ou contribuer au code, rendez-vous sur le site officiel.
-    </p>
-
-    <h2>Notre mission</h2>
-    <p>
-      Nous souhaitons aider l'adoption de CakePHP en France, en aidant les professionnels à se rencontrer et diffuser leur expérience.
-    </p>
-
-    <h2>Nos outils</h2>
-    <p>
-
-    </p>
-    <p>Envie d'aider ou de proposer des améliorations ? </p>
-    <a role="button" href="{{ "/contribuer" | prepend: site.baseurl }}" class="button tiny round secondary">C'est possible !</a>
-
-    <h2>Actualités</h2>
-
-    <a role="button" href="{{ "/contribuer" | prepend: site.baseurl }}" class="button tiny round secondary">Proposer une actualité</a>
-    <a role="button" href="{{ "/feed.xml" | prepend: site.baseurl }}" class="button tiny round secondary">S'abonner via RSS</a>
-
-    <ul class="ul-actu">
-      {% for post in site.posts %}
-        <li>
-          <h3>
-            {{ post.date | date: "%d/%m/%Y" }} <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h3>
-        </li>
-      {% endfor %}
+<div class="jumbotron">
+  <h1>Communauté francophone de CakePHP</h1>
+  <br><br>
+  <!-- <h2>Bienvenue !</h2> -->
+  <p class="lead">
+    Bienvenue sur le site de la communauté francophone de CakePHP !
+    <br><br>
+    <strong>Vous trouverez ici toutes les informations nécessaires pour échanger avec d'autres professionnels et partager votre expérience.</strong>.
+    <br>
+    En tant que participant, soyez accueillant et ouvert en respectant les autres participants ... gardons la convivialité de notre communauté !
+    <br><br>
+    CakePHP-fr.org est un complément aux ressources officielles disponibles sur <a href="http://www.cakephp.org">CakePHP.org</a> (Documentation, API, tickets ...). Si vous souhaitez apprendre le framework ou contribuer au code, rendez-vous sur le <a class="btn btn-primary btn-sm" href="http://www.cakephp.org" role="button">site officiel</a>.
+    <br><br>
+    Le site et son contenu sont indépendants de la <a href="http://cakefoundation.org/">Cake Software Foundation</a>
+    Les images et logos sont la propriété de la <a href="http://cakefoundation.org/">Cake Software Foundation</a>
+  </p>
+  <hr class="m-y-2">
+  <p>
+    Ce site est entièrement géré par des bénévoles. Les sources sont disponibles sur <a href="http://github.com/cakephp-fr">github</a> et toute contribution est la bienvenue.
+    <br><br>
+    Vous pouvez contribuer de différentes manières :
+    <ul>
+      <li>Corriger les erreurs et fautes d'orthographe de ce site</li>
+      <li>Proposer des retours d'expériences du framework en situation réelle (avantages, inconvénients ...). Contactez-nous, nous pouvons vous aider à trouver un sujet !</li>
+      <li>Participer ou organiser un <a href="http://www.meetup.com/CakePHP-France">meetup</a> et proposer/trouver des offres d'emploi</li>
+      <li>Aider les utilisateurs en répondant aux questions sur le <a href="http://forum.cakephp-fr.org">forum</a></li>
+      <li>Vous connecter sur IRC pour échanger avec d'autres utilisateurs</li>
+      <li>Corriger la traduction de la documentation officielle sur <a href="https://github.com/cakephp/docs">github</a> et traduire en français les différents plugins.</li>
     </ul>
+  </p>
+</div>
 
-  </div>
+<div class="jumbotron">
+  <h2>Actualités</h2>
+
+  <button href="{{ "https://github.com/cakephp-fr/cakephp-fr.github.io" | prepend: site.baseurl }}" type="button" class="btn btn-primary btn-sm">Proposer une actualité</button>
+  <button href="{{ "/feed.xml" | prepend: site.baseurl }}" type="button" class="btn btn-primary btn-sm">S'abonner via RSS</button>
+
+  <ul class="list-unstyled">
+    {% for post in site.posts %}
+      <li>
+        {{ post.date | date: "%d/%m/%Y" }} <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="jumbotron">
+  <h2>IRC</h2>
+  <p>
+    Un bug, une difficulté, une question, une blague hilarante ? Connectez-vous au salon #cakephp-fr sur Freenode, ou utilisez le widget ci-dessous pour en faire part à la communauté !
+
+    <iframe src="https://kiwiirc.com/client/irc.freenode.net/#cakephp-fr" style="border:0; width:100%; height:500px;"></iframe>
+  </p>
+</div>
+
+<div class="hidden-xs-down" style="position:fixed; top:20%; right:0; z-index:9999;">
+   <a href="http://www.cakephp.org/">
+      <img src="http://www.cakephp.org/img/flags/We-bake-with-CakePHP.png" width="100px;">
+   </a>
 </div>

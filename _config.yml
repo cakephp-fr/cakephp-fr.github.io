@@ -16,6 +16,7 @@ baseurl: ""
 url: "http://www.cakephp-fr.org"
 twitter_username: cakephpfr
 github_username:  cakephp-fr
+docker_username:  cakephpfr
 meetup_username:  CakePHP-France
 
 # Build settings

@@ -1,43 +1,73 @@
-@import "settings";
-// @import "foundation";
+/*!
+ * Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 
-// Or selectively include components
-@import
-  // "foundation/components/accordion",
-  "foundation/components/alert-boxes",
-  "foundation/components/block-grid",
-  // "foundation/components/breadcrumbs",
-  "foundation/components/button-groups",
-  "foundation/components/buttons",
-  "foundation/components/clearing",
-  "foundation/components/dropdown",
-  "foundation/components/dropdown-buttons",
-  // "foundation/components/flex-video",
-  "foundation/components/forms",
-  "foundation/components/grid",
-  "foundation/components/inline-lists",
-  // "foundation/components/joyride",
-  // "foundation/components/keystrokes",
-  "foundation/components/labels",
-  // "foundation/components/magellan",
-  // "foundation/components/orbit",
-  "foundation/components/pagination",
-  "foundation/components/panels",
-  // "foundation/components/pricing-tables",
-  // "foundation/components/progress-bars",
-  // "foundation/components/reveal",
-  // "foundation/components/side-nav",
-  "foundation/components/split-buttons",
-  "foundation/components/sub-nav",
-  // "foundation/components/switches",
-  "foundation/components/tables",
-  // "foundation/components/tabs",
-  "foundation/components/thumbs",
-  // "foundation/components/tooltips",
-  "foundation/components/top-bar",
-  "foundation/components/type",
-  // "foundation/components/offcanvas",
-  "foundation/components/visibility",
-  "syntax-highlighting",
-  "foundation-icons",
-  "custom";
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// Reset and dependencies
+@import "normalize";
+@import "print";
+
+// Core CSS
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+
+// Components
+@import "animation";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "pager";
+@import "labels";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "responsive-embed";
+@import "close";
+
+// Components w/ JavaScript
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+
+// Utility classes
+@import "utilities";
+@import "utilities-background";
+@import "utilities-spacing";
+@import "utilities-responsive";
+
+// Font awesome Icons
+@import "scss/variables";
+@import "scss/mixins";
+@import "scss/path";
+@import "scss/core";
+@import "scss/larger";
+@import "scss/fixed-width";
+@import "scss/list";
+@import "scss/bordered-pulled";
+@import "scss/animated";
+@import "scss/rotated-flipped";
+@import "scss/stacked";
+@import "scss/icons";
+@import "scss/screen-reader";
+
+@import "main";
