@@ -115,7 +115,7 @@ Aucun meetup prévu ce mois-ci.
 
 Pour information, le groupe [CakePHP France sur meetup.com](http://www.meetup.com/fr/CakePHP-France) a été arrêté mais si vous souhaitez organiser un meetup dans votre
 ville, vous pouvez en créer un sur le
-[forum](forum.cakephp-fr.org/viewtopic.php?id=7291) ou sur
+[forum](http://forum.cakephp-fr.org/viewtopic.php?id=7291) ou sur
 [twitter](https://twitter.com/cakephpfr)
 
 Statistiques du site
