@@ -25,7 +25,7 @@ Meetups prévues
 Si vous souhaitez organiser un meetup dans votre ville, vous pouvez en créer un
 sur [meetup](http://www.meetup.com/CakePHP-France). Vous pouvez nous demander
 de le mettre sur le groupe de Meetup sur le
-[forum](forum.cakephp-fr.org/viewtopic.php?id=7291) ou sur
+[forum](http://forum.cakephp-fr.org/viewtopic.php?id=7291) ou sur
 [twitter](https://twitter.com/cakephpfr).
 
 Statistiques du site

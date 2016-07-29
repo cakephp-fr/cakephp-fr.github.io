@@ -151,7 +151,7 @@ Meetups prévues
 ---------------
 
 Si vous souhaitez organiser un meetup dans votre ville, vous pouvez en créer un
-sur le [forum](forum.cakephp-fr.org/viewtopic.php?id=7291) ou sur
+sur le [forum](http://forum.cakephp-fr.org/viewtopic.php?id=7291) ou sur
 [twitter](https://twitter.com/cakephpfr).
 
 Statistiques du site

@@ -12,7 +12,7 @@ construire vos applications en production. Un grand merci à l'
 qui ont fait un boulot incroyable pour nous livrer une version véritablement
 stable, complète et toujours aussi facile à utiliser.
 
-A noter aussi une refonte en cours du [site officiel](cakephp.org) qui se fera
+A noter aussi une refonte en cours du [site officiel](http://cakephp.org/) qui se fera
 progressivement au cours de l'année. Pour rappel, vous pouvez encore vous
 inscrire à la [CakeFest](http://cakefest.org), rendez-vous annuel des amateurs
 du framework qui se déroule du 28 au 31 mars 2015 à New York...
