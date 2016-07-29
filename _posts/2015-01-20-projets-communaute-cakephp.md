@@ -29,5 +29,4 @@ framework et aider les nouveaux à travailler avec ce bel outil.
   place.
 
 A bientôt et n'hésitez pas à nous contacter sur le
-[forum](http://forum.cakephp-fr.org), [github](https://github.com/cakephp-fr),
-[IRC](http://www.cakephp-fr.org/irc) ...
+[forum](http://forum.cakephp-fr.org), [github](https://github.com/cakephp-fr) ...
