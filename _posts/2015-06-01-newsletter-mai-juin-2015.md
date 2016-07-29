@@ -51,7 +51,7 @@ zayaa et PierreMasclet.
 
 Pdf de statistiques de Google Analytics:
 
-![Analytics de Avril et Mai 2015]({{ site.url }}/img/analytics-www.cakephp-fr.org-statistiques-mensuelles-20150401-20150531.png)
+![Analytics de Avril et Mai 2015]({{ site.url }}/img/analytics/analytics-www.cakephp-fr.org-statistiques-mensuelles-20150401-20150531.png)
 
 Dernières versions de CakePHP
 -----------------------------

@@ -24,7 +24,7 @@ Un petit récap de l'activité du site pour le mois de février:
 
 Pdf de statistiques de Google Analytics:
 
-![Analytics de Février 2015]({{ site.url }}/img/analytics-www.cakephp-fr.org-statistiques-mensuelles-20150201-20150228.png)
+![Analytics de Février 2015]({{ site.url }}/img/analytics/analytics-www.cakephp-fr.org-statistiques-mensuelles-20150201-20150228.png)
 
 Dernières versions de CakePHP
 -----------------------------

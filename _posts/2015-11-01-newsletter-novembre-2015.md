@@ -169,7 +169,7 @@ Bienvenue à tous les nouveaux !!
 
 Pdf de statistiques de Google Analytics:
 
-![Analytics d'Octobre 2015]({{ site.url }}/img/analytics-www.cakephp-fr.org-statistiques-mensuelles-20151001-20151031.png)
+![Analytics d'Octobre 2015]({{ site.url }}/img/analytics/analytics-www.cakephp-fr.org-statistiques-mensuelles-20151001-20151031.png)
 
 Dernières versions de CakePHP
 -----------------------------

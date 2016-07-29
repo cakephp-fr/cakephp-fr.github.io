@@ -60,7 +60,7 @@ WilbertDre, Yves, mansaychai, Omicrone et elnk.
 
 ### Pdf de statistiques de Google Analytics:
 
-![Analytics de Mars 2015]({{ site.url }}/img/analytics-www.cakephp-fr.org-statistiques-mensuelles-20150301-20150331.png)
+![Analytics de Mars 2015]({{ site.url }}/img/analytics/analytics-www.cakephp-fr.org-statistiques-mensuelles-20150301-20150331.png)
 
 Dernières versions de CakePHP
 -----------------------------

@@ -5,9 +5,11 @@ layout: default
 
   <div class="col-xs-12">
 
+    <button href="{{ site.baseurl }}/" type="button" class="btn btn-primary btn-lg btn-block hidden-sm-up">Retour à l'accueil</button>
+
     <h1>{{ page.title }}</h1>
 
-    <span class="round label">{{ page.date | date: "%d/%m/%Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
+    <span class="label label-primary">{{ page.date | date: "%d/%m/%Y" }} {% if page.meta %} • {{ page.meta }}{% endif %}</span>
 
     <article class="post-content text-justify">
       {{ content }}
@@ -15,4 +17,9 @@ layout: default
 
   </div>
 
+  <div class="hidden-xs-down" style="position:fixed; top:20%; right:0; z-index:9999;">
+     <a href="{{ site.baseurl }}/">
+       <i class="fa fa-arrow-circle-left fa-2x"></i>
+     </a>
+  </div>
 </div>
